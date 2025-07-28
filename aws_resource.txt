@@ -1,1 +1,22 @@
-This is the test file to check the commi
+#!/bin/bash 
+############
+#Author : Moulik Mahajan
+#Date : 18july
+#v1
+############
+
+########
+#AWS S3 printing the number of s3 buckets
+#######
+
+aws s3 ls
+
+#########
+#List ec2 insatnces 
+#########
+
+aws ec2 describe-instances 
+
+
+
+
